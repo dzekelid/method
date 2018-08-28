@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: 3scale
 x-complete: 1
@@ -18,4 +17,133 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /admin/api/services/{service_id}/metrics/{metric_id}/methods.xml:
+    get:
+      summary: Method List
+      description: Method list.
+      operationId: metric_method
+      x-api-path-slug: adminapiservicesservice-idmetricsmetric-idmethods-xml-get
+      parameters:
+      - in: path
+        name: metric_id
+        description: id of the metric
+      - in: query
+        name: provider_key
+        description: Your api key with 3scale (also known as provider key)
+      - in: path
+        name: service_id
+        description: id of the service
+      responses:
+        200:
+          description: OK
+      tags:
+      - Method
+      - List
+    post:
+      summary: Method Create
+      description: Method create.
+      operationId: metric_method
+      x-api-path-slug: adminapiservicesservice-idmetricsmetric-idmethods-xml-post
+      parameters:
+      - in: query
+        name: friendly_name
+        description: Name of the method
+      - in: path
+        name: metric_id
+        description: id of the metric
+      - in: query
+        name: provider_key
+        description: Your api key with 3scale (also known as provider key)
+      - in: path
+        name: service_id
+        description: id of the service
+      - in: query
+        name: system_name
+        description: System Name of the metric
+      - in: query
+        name: unit
+        description: Measure unit of the method
+      responses:
+        200:
+          description: OK
+      tags:
+      - Method
+      - Create
+  /admin/api/services/{service_id}/metrics/{metric_id}/methods/{id}.xml:
+    delete:
+      summary: Method Delete
+      description: Method delete.
+      operationId: metric_method
+      x-api-path-slug: adminapiservicesservice-idmetricsmetric-idmethodsid-xml-delete
+      parameters:
+      - in: path
+        name: id
+        description: id of the method
+      - in: path
+        name: metric_id
+        description: id of the metric
+      - in: query
+        name: provider_key
+        description: Your api key with 3scale (also known as provider key)
+      - in: path
+        name: service_id
+        description: id of the service
+      responses:
+        200:
+          description: OK
+      tags:
+      - Method
+    get:
+      summary: Method Read
+      description: Method read.
+      operationId: metric_method
+      x-api-path-slug: adminapiservicesservice-idmetricsmetric-idmethodsid-xml-get
+      parameters:
+      - in: path
+        name: id
+        description: id of the method
+      - in: path
+        name: metric_id
+        description: id of the metric
+      - in: query
+        name: provider_key
+        description: Your api key with 3scale (also known as provider key)
+      - in: path
+        name: service_id
+        description: id of the service
+      responses:
+        200:
+          description: OK
+      tags:
+      - Method
+      - Read
+    put:
+      summary: Method Update
+      description: Method update.
+      operationId: metric_method
+      x-api-path-slug: adminapiservicesservice-idmetricsmetric-idmethodsid-xml-put
+      parameters:
+      - in: query
+        name: friendly_name
+        description: Name of the method
+      - in: path
+        name: id
+        description: id of the method
+      - in: path
+        name: metric_id
+        description: id of the metric
+      - in: query
+        name: provider_key
+        description: Your api key with 3scale (also known as provider key)
+      - in: path
+        name: service_id
+        description: id of the service
+      - in: query
+        name: unit
+        description: Measure unit of the method
+      responses:
+        200:
+          description: OK
+      tags:
+      - Method

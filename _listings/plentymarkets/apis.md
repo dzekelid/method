@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Method
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
@@ -43,6 +43,49 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/plentymarkets/restpaymentsmethodnamespaymentmethodidlang-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/plentymarkets/restpaymentsmethodnamespaymentmethodidlang-get-openapi.md
+- name: plentymarkets REST-API - Create a payment method
+  x-api-slug: restpaymentsmethods-post
+  description: Creates a payment method. The plugin key, the payment key and the name
+    of the payment method must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/plentymarkets/restpaymentsmethods-post-openapi.md
+- name: plentymarkets REST-API - Update a payment method
+  x-api-slug: restpaymentsmethods-put
+  description: Updates the name of the payment method. The name of the payment method
+    must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/plentymarkets/restpaymentsmethods-put-openapi.md
+- name: plentymarkets REST-API - Get a payment method
+  x-api-slug: restpaymentsmethodspluginspluginkey-get
+  description: Gets a payment method plugin. The plugin key must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/plentymarkets/restpaymentsmethodspluginspluginkey-get-openapi.md
+- name: plentymarkets REST-API - List payments of a payment method
+  x-api-slug: restpaymentsmethodsmethodid-get
+  description: Lists all payments of the a payment method. The ID of the payment method
+    must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/plentymarkets/restpaymentsmethodsmethodid-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1

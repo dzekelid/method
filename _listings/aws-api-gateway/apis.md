@@ -16,11 +16,80 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Method
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/aws-api-gateway/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS API Gateway API - Methodresponse Delete
+  x-api-slug: restapisuojnr9hd57resources0cjtchmethodsgetresponses200-delete
+  description: Deletes method response settings.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/aws-api-gateway/restapisuojnr9hd57resources0cjtchmethodsgetresponses200-delete-openapi.md
+- name: AWS API Gateway API - Method Update
+  x-api-slug: restapisfugvjdxtriresources3kzxbg5sa2methodsget-patch
+  description: Update the method settings.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/aws-api-gateway/restapisfugvjdxtriresources3kzxbg5sa2methodsget-patch-openapi.md
+- name: AWS API Gateway API - Method Delete
+  x-api-slug: restapis8ekh4oszglresources4oa3abz7jcmethodsget-delete
+  description: Delete the method resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/aws-api-gateway/restapis8ekh4oszglresources4oa3abz7jcmethodsget-delete-openapi.md
+- name: AWS API Gateway API - Method Responses
+  x-api-slug: restapisuojnr9hd57resources0cjtchmethodsgetresponses200-get
+  description: Gets a method response associated with a given HTTP status code.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/aws-api-gateway/restapisuojnr9hd57resources0cjtchmethodsgetresponses200-get-openapi.md
+- name: AWS API Gateway API - Method Integration
+  x-api-slug: restapisuojnr9hd57resources0cjtchmethodsgetintegration-get
+  description: Gets the method&#39;s integration responsible for passing the client-submitted
+    request to the back end and performing necessary transformations to make the request
+    compliant with the back end.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/aws-api-gateway/restapisuojnr9hd57resources0cjtchmethodsgetintegration-get-openapi.md
+- name: AWS API Gateway API - Method Byhttpmethod
+  x-api-slug: restapisuojnr9hd57resources0cjtchmethodsget-get
+  description: Gets the method (as a Method resource) on a specified API resource
+    (as Resource resource) of the given HTTP method type.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/aws-api-gateway/restapisuojnr9hd57resources0cjtchmethodsget-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://awhere.api.gallery.streamdata.io

@@ -7,11 +7,66 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.j
 x-kinRank: "10"
 x-alexaRank: "333433"
 tags: Method
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/3scale/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: 3Scale Account Management API - Method List
+  x-api-slug: adminapiservicesservice-idmetricsmetric-idmethods-xml-get
+  description: Method list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/3scale/adminapiservicesservice-idmetricsmetric-idmethods-xml-get-openapi.md
+- name: 3Scale Account Management API - Method Create
+  x-api-slug: adminapiservicesservice-idmetricsmetric-idmethods-xml-post
+  description: Method create.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/3scale/adminapiservicesservice-idmetricsmetric-idmethods-xml-post-openapi.md
+- name: 3Scale Account Management API - Method Delete
+  x-api-slug: adminapiservicesservice-idmetricsmetric-idmethodsid-xml-delete
+  description: Method delete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/3scale/adminapiservicesservice-idmetricsmetric-idmethodsid-xml-delete-openapi.md
+- name: 3Scale Account Management API - Method Read
+  x-api-slug: adminapiservicesservice-idmetricsmetric-idmethodsid-xml-get
+  description: Method read.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/3scale/adminapiservicesservice-idmetricsmetric-idmethodsid-xml-get-openapi.md
+- name: 3Scale Account Management API - Method Update
+  x-api-slug: adminapiservicesservice-idmetricsmetric-idmethodsid-xml-put
+  description: Method update.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/method/master/_listings/3scale/adminapiservicesservice-idmetricsmetric-idmethodsid-xml-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://3scale.api.gallery.streamdata.io
